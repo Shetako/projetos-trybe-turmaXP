@@ -1,0 +1,42 @@
+h1 {
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+main {
+  text-align: center;
+}
+
+#funcionamento {
+  font-size: 14px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+#lista-de-tarefas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol,
+li {
+  line-height: 20px;
+}
+
+.painted {
+  background-color: rgb(128, 128, 128);
+}
+
+.botao-embaixo {
+  display: inline;
+  padding: 5px;
+  margin-top: 10px;
+}

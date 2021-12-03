@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.section-1 {
+  display: flex;
+}
+
+main {
+  display: flex;
+}
+
+main form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.ajustar-inputs {
+  display: flex;
+}
+
+.ajustar-inputs input {
+  flex-grow: 1;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-enviar {
+  margin-top: 16px;
+}
+
+#submit-btn {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(80, 21, 134);
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+#submit-btn:disabled {
+  background-color: gray;
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.textarea-container textarea {
+  width: 100%;
+  resize: none;
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_transform.asp */
+#counter {
+  display: flex;
+  align-self: flex-end;
+  transform: translate(-2px, -20px);
+}

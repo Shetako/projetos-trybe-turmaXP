@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin:auto;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: black;
+  display: inline-block;
+}
+
+#black {
+  background-color: black;
+}
+
+#button {
+  padding: 10px;
+}
+
+#clear-board {
+  margin-left: 10px;
+}
+
+#linha {
+  padding: 0;
+  margin-bottom: 0;
+  height: 40px;
+  width: auto;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}

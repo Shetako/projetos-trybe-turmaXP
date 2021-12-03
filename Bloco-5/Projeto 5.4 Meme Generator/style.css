@@ -1,0 +1,14 @@
+#meme-image-container {
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+    /* height:600px;
+    width: 600px; */
+}
+
+#meme-text {
+    margin-top: 20px;
+    width: 70%;
+    height: 400px;
+    z-index: 2;
+}

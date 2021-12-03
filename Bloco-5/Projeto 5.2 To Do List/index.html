@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto to do list</title>
+    <link rel='stylesheet' type='text/css' href="style.css">
+</head>
+<body>  
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <main>
+        <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+        <section>
+            <input id='texto-tarefa' placeholder="Insira uma tarefa">
+            <button id='criar-tarefa'>Adcionar tarefa</button>
+        </section>
+        <section id='lista-de-tarefas'>
+            <ol id='lista-tarefas'>
+            </ol>
+        </section>  
+        <section id='botoes'>
+            <section id='botão-move-para-cima' class='botao-embaixo'>
+                <button id='mover-cima'>Para cima</button>
+            </section>
+            <section id='botão-mover-para-baixo' class='botao-embaixo'>
+                <button id='mover-baixo'>Para baixo</button>
+            </section>
+            <section id='botão-apaga-tudo' class='botao-embaixo'>
+                <button id='apaga-tudo'>Apagar tudo</button>
+            </section>
+            <section id='botão-remover-finalizados' class='botao-embaixo'>
+                <button id='remover-finalizados'>Apagar finalizados</button>
+            </section>
+            <section id='botão-remover-selecionado' class='botao-embaixo'>
+                <button id='remover-selecionado'>Apagar selecionado</button>
+            </section>
+            <section id='botão-salvar-tarefas' class='botao-embaixo'>
+                <button id='salvar-tarefas'>Salvar tarefas</button>
+            </section>
+        </section>
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
